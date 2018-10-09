@@ -1,0 +1,27 @@
+package rules
+
+import com.springboot.model.Person;
+import com.springboot.model.Result ;
+
+
+
+rule "Language-English"
+	when 
+		personObject: Person(Locale == "en-us" || Custom12 == "Salesforce")
+		resultObj: Result(message == null)
+				
+	then
+		personObject.setLanguage("English");		
+		resultObj.setMessage("The language is Enlish");	
+			
+	end
+	
+rule "Language-Spanish"
+	when 
+		personObject: Person(Locale == "en-mx" || Custom12 == "Salesforce")	
+		resultObj: Result(message == null)
+	then
+		personObject.setLanguage("Mexican");		
+		resultObj.setMessage("The language is Mexican");
+		
+	end

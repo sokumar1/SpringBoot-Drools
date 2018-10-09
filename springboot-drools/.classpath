@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Drool Runtime/antlr-runtime.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/drools-compiler.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/drools-core.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/drools-decisiontables.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/drools-jsr94.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/drools-templates.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/jbpm-bpmn2.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/jbpm-flow.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/jbpm-flow-builder.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/jsr94.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/junit.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/kie-api.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/kie-internal.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/mvel2.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/org.eclipse.jdt.core_3.10.0.v20140902-0626.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/poi.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/poi-ooxml.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/protobuf-java.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/xmlpull.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/xpp3_min.jar"/>
+	<classpathentry kind="lib" path="C:/Drool Runtime/xstream.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
